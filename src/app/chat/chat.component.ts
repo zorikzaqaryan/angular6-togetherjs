@@ -25,35 +25,35 @@ export class ChatComponent implements OnInit {
 
   startSharing() {
     // configure TogetherJS
-   let config = {
-     siteName: 'Some name',
-     toolName: 'Some name',
-     dontShowClicks: true,
-     enableShortcut: false,
-     suppressInvite: false,
-     suppressJoinConfirmation: true,
-     disableWebRTC: true,
-     autoStart: false,
-     includeHashInUrl: false,
-     // ignoreMessages: ['cursor-update', 'keydown', 'scroll-update', 'app.sync'],
-     ignoreMessages: true,
-     on: {
-       'ready': function() {
-
-         // show the link, for convenience
-//          document.getElementById('togetherjs-share-button').click();
-         TogetherJS.config.get('getUserAvatar');
-console.log();
-
-//          BvSIosMbNe
-       },
-       'close': function() { },
-     }
-   };
-   for (let k in config) {
-     window['TogetherJSConfig_' + k] = config[k];
-   }
-
+//    let config = {
+//      siteName: 'Some name',
+//      toolName: 'Some name',
+//      dontShowClicks: true,
+//      enableShortcut: false,
+//      suppressInvite: false,
+//      suppressJoinConfirmation: true,
+//      disableWebRTC: true,
+//      autoStart: false,
+//      includeHashInUrl: false,
+//      // ignoreMessages: ['cursor-update', 'keydown', 'scroll-update', 'app.sync'],
+//      ignoreMessages: true,
+//      on: {
+//        'ready': function() {
+//
+//          // show the link, for convenience
+// //          document.getElementById('togetherjs-share-button').click();
+//          TogetherJS.config.get('getUserAvatar');
+// console.log();
+//
+// //          BvSIosMbNe
+//        },
+//        'close': function() { },
+//      }
+//    };
+//    for (let k in config) {
+//      window['TogetherJSConfig_' + k] = config[k];
+//    }
+//
 
 
 
