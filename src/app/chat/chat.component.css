@@ -1,0 +1,27 @@
+body {
+  background-color: white;
+}
+
+.add-location {
+  margin-left: 7%;
+}
+
+.btn:hover, .btn-default:hover {
+  border: 1px solid transparent;
+}
+
+@media only screen and (max-width: 992px) {
+  .col-xs-1 {
+    float: none;
+  }
+
+  .add-location {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
+
+.login-icon {
+  width: 100px;
+  height: 100px;
+}
